@@ -44,7 +44,11 @@ public class AssetBundler
     /// <summary>
     /// Folders which should not be included in the asset bundling process.
     /// </summary>
-    public static string[] EXCLUDED_FOLDERS = new string[] { "Assets/Editor", "Assets/TestHarness" };
+    public static string[] EXCLUDED_FOLDERS = new string[] { "Assets/Editor", "Assets/TestHarness",
+        "Assets/Modules/Amber", "Assets/Modules/Black", "Assets/Modules/Blue",
+        "Assets/Modules/Cornflower", "Assets/Modules/Cyan", "Assets/Modules/Glitched",
+        "Assets/Modules/Gray", "Assets/Modules/Green", "Assets/Modules/Navy", "Assets/Modules/Orange",
+        "Assets/Modules/Pink", "Assets/Modules/Purple", "Assets/Modules/Red", "Assets/Modules/Teal", "Assets/Modules/White", "Assets/Modules/Yellow"};
 
 
     #region Internal bundler Variables

@@ -38,7 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4263519378220178}
   m_Layer: 0
-  m_Name: ButtonHeadB
+  m_Name: ButtonHeadG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 114303559387390978}
   - component: {fileID: 135367968434542988}
   m_Layer: 0
-  m_Name: ButtonB
+  m_Name: ButtonG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 102374115003722162}
   - component: {fileID: 114386329048792046}
   m_Layer: 0
-  m_Name: TextDisplayB
+  m_Name: TextDisplayg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -246,10 +246,9 @@ GameObject:
   - component: {fileID: 114462647377417402}
   - component: {fileID: 114851826596115828}
   - component: {fileID: 114629500169079468}
-  - component: {fileID: 114634732664737626}
-  - component: {fileID: 114662490281306988}
+  - component: {fileID: 114862840039460490}
   m_Layer: 0
-  m_Name: Base
+  m_Name: Green Button't
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -267,7 +266,7 @@ GameObject:
   - component: {fileID: 102923747411747798}
   - component: {fileID: 114951002985627382}
   m_Layer: 0
-  m_Name: ButtonTextAB
+  m_Name: ButtonTextAg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -425,7 +424,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1962260446815250}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.87, y: 0, z: 0.2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4733966397014052}
@@ -457,7 +456,7 @@ Transform:
   m_GameObject: {fileID: 1796204006688062}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0.02, y: 0.0163, z: 0.0526}
-  m_LocalScale: {x: 0.009814812, y: 0.009861396, z: 0.006000011}
+  m_LocalScale: {x: 0.005871125, y: 0.008204969, z: 0.006000011}
   m_Children: []
   m_Father: {fileID: 4259139028157018}
   m_RootOrder: 2
@@ -800,7 +799,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: b18646f99fb061d4fba0389932ee43e9, type: 2}
+  - {fileID: 2100000, guid: c847de091ba6e064eb083930ca27470b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -890,7 +889,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1796204006688062}
-  m_Text: 99
+  m_Text: COLORS
   m_OffsetZ: 0
   m_CharacterSize: 0.25
   m_LineSpacing: 1
@@ -911,7 +910,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1964328975079934}
-  m_Text: :)
+  m_Text: MM
   m_OffsetZ: 0
   m_CharacterSize: 0.25
   m_LineSpacing: 1
@@ -1021,8 +1020,8 @@ MonoBehaviour:
   m_Script: {fileID: -119419473, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ModuleType: bluebuttont
-  ModuleDisplayName: Blue Button't
+  ModuleType: greenbuttont
+  ModuleDisplayName: Green Button't
   RequiresTimerVisibility: 1
 --- !u!114 &114462647377417402
 MonoBehaviour:
@@ -1097,112 +1096,6 @@ MonoBehaviour:
   m_Script: {fileID: -1675560866, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114634732664737626
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1962260446815250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adbf8adb0d0f3ae4d8de480628cd9f3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Module: {fileID: 114445151190721914}
-  BombInfo: {fileID: 114851826596115828}
-  Audio: {fileID: 114629500169079468}
-  ButtonSelectable: {fileID: 114303559387390978}
-  ButtonCap: {fileID: 1064130632272964}
-  MO: {fileID: 1962260446815250}
-  DisplayText: {fileID: 102374115003722162}
-  ButtonText: {fileID: 102923747411747798}
-  select: 0
-  A: 
-  B: 
-  C: 
-  D: 
-  E: 
-  F: 
-  G: 
-  H: 
-  I: 
-  J: 
-  K: 
-  L: 
-  M: 
-  N: 
-  O: 
-  P: 
-  Q: 
-  R: 
-  S: 
-  T: 
-  U: 
-  V: 
-  W: 
-  X: 
-  Y: 
-  Z: 
-  num: 0
-  change: 
-  answer: 
-  input: 
-  auto: 0
-  lenth: 0
-  autotext: 
---- !u!114 &114662490281306988
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1962260446815250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adbf8adb0d0f3ae4d8de480628cd9f3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Module: {fileID: 114445151190721914}
-  BombInfo: {fileID: 114851826596115828}
-  Audio: {fileID: 114629500169079468}
-  ButtonSelectable: {fileID: 114303559387390978}
-  ButtonCap: {fileID: 1064130632272964}
-  MO: {fileID: 1962260446815250}
-  DisplayText: {fileID: 102374115003722162}
-  ButtonText: {fileID: 102923747411747798}
-  select: 0
-  A: 0
-  B: 0
-  C: 0
-  D: 0
-  E: 
-  F: 
-  G: 
-  H: 
-  I: 
-  J: 
-  K: 
-  L: 
-  M: 
-  N: 
-  O: 
-  P: 
-  Q: 
-  R: 
-  S: 
-  T: 
-  U: 
-  V: 
-  W: 
-  X: 0
-  Y: 
-  Z: 
-  num: 0
-  change: 
-  answer: 
-  input: 
-  auto: 0
-  lenth: 0
-  autotext: 
 --- !u!114 &114688671638941096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1240,6 +1133,57 @@ MonoBehaviour:
   m_Script: {fileID: 2144496390, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114862840039460490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1962260446815250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21fa12bd17c5cf84d9b97b72f261c6fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Module: {fileID: 114445151190721914}
+  BombInfo: {fileID: 114851826596115828}
+  Audio: {fileID: 114629500169079468}
+  ButtonSelectable: {fileID: 114303559387390978}
+  ButtonCap: {fileID: 1064130632272964}
+  MO: {fileID: 1962260446815250}
+  DisplayText: {fileID: 102374115003722162}
+  ButtonText: {fileID: 0}
+  color1: 
+  color2: 
+  color3: 
+  color4: 
+  color5: 
+  color6: 
+  color7: 
+  color8: 
+  color9: 
+  color10: 
+  S1: 0
+  S2: 0
+  S3: 0
+  S4: 0
+  S5: 0
+  S6: 0
+  S7: 0
+  S8: 0
+  S9: 0
+  S10: 0
+  D1: 
+  D2: 
+  D3: 
+  D4: 
+  D5: 
+  D6: 
+  D7: 
+  D8: 
+  D9: 
+  D10: 
+  stage: 0
+  gen: 0
 --- !u!114 &114880915303417924
 MonoBehaviour:
   m_ObjectHideFlags: 1

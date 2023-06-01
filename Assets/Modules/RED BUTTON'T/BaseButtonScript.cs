@@ -463,6 +463,7 @@ public class BaseButtonScript : MonoBehaviour
 
         if (Regex.IsMatch(command, @"^\s*left\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
         {
+            yield return null;
             ButtonSelectable.OnInteract();
             while (DisplayText.text != "LEFT")
                 yield return "trycancel";
@@ -471,6 +472,7 @@ public class BaseButtonScript : MonoBehaviour
         }
         else if (Regex.IsMatch(command, @"^\s*up\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
         {
+            yield return null;
             ButtonSelectable.OnInteract();
             while (DisplayText.text != "UP")
                 yield return "trycancel";
@@ -479,6 +481,7 @@ public class BaseButtonScript : MonoBehaviour
         }
         else if (Regex.IsMatch(command, @"^\s*right\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
         {
+            yield return null;
             ButtonSelectable.OnInteract();
             while (DisplayText.text != "RIGHT")
                 yield return "trycancel";
@@ -487,6 +490,7 @@ public class BaseButtonScript : MonoBehaviour
         }
         else if (Regex.IsMatch(command, @"^\s*down\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
         {
+            yield return null;
             ButtonSelectable.OnInteract();
             while (DisplayText.text != "DOWN")
                 yield return "trycancel";
@@ -495,6 +499,7 @@ public class BaseButtonScript : MonoBehaviour
         }
         else if (Regex.IsMatch(command, @"^\s*reset\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
         {
+            yield return null;
             ButtonSelectable.OnInteract();
             while (DisplayText.text != "RESET")
                 yield return "trycancel";
@@ -503,6 +508,7 @@ public class BaseButtonScript : MonoBehaviour
         }
         else if (Regex.IsMatch(command, @"^\s*submit\s*$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
         {
+            yield return null;
             ButtonSelectable.OnInteract();
             while (DisplayText.text != "SUBMIT")
                 yield return "trycancel";

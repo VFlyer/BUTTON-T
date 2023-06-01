@@ -38,7 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4263519378220178}
   m_Layer: 0
-  m_Name: ButtonHeadO
+  m_Name: ButtonHeadB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 114303559387390978}
   - component: {fileID: 135367968434542988}
   m_Layer: 0
-  m_Name: ButtonO
+  m_Name: ButtonB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 102374115003722162}
   - component: {fileID: 114386329048792046}
   m_Layer: 0
-  m_Name: TextDisplayo1
+  m_Name: TextDisplayB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,24 +234,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1919952529870732
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4387695425932336}
-  - component: {fileID: 23228981959572616}
-  - component: {fileID: 102077610547965766}
-  - component: {fileID: 114558589799601816}
-  m_Layer: 0
-  m_Name: TextDisplayo2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1962260446815250
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,9 +246,10 @@ GameObject:
   - component: {fileID: 114462647377417402}
   - component: {fileID: 114851826596115828}
   - component: {fileID: 114629500169079468}
-  - component: {fileID: 114639616304300316}
+  - component: {fileID: 114634732664737626}
+  - component: {fileID: 114662490281306988}
   m_Layer: 0
-  m_Name: Base
+  m_Name: Blue Button't
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -284,7 +267,7 @@ GameObject:
   - component: {fileID: 102923747411747798}
   - component: {fileID: 114951002985627382}
   m_Layer: 0
-  m_Name: ButtonTextAo
+  m_Name: ButtonTextAB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -416,7 +399,6 @@ Transform:
   - {fileID: 4228329590679126}
   - {fileID: 4158069017626096}
   - {fileID: 4468393342345336}
-  - {fileID: 4387695425932336}
   m_Father: {fileID: 4270060223130412}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -443,7 +425,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1962260446815250}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.213, y: 0, z: 0.2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4733966397014052}
@@ -461,24 +443,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1964328975079934}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.004999999, y: 0.01, z: -0.0003}
+  m_LocalPosition: {x: 0, y: 0.01, z: -0.0003}
   m_LocalScale: {x: 0.028433332, y: 0.0304667, z: 0.020000031}
   m_Children: []
   m_Father: {fileID: 4263519378220178}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!4 &4387695425932336
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1919952529870732}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.019999996, y: 0.0163, z: 0.043}
-  m_LocalScale: {x: 0.00481, y: 0.005500002, z: 0.006000004}
-  m_Children: []
-  m_Father: {fileID: 4259139028157018}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4468393342345336
 Transform:
@@ -487,8 +456,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1796204006688062}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.02, y: 0.0163, z: 0.06379999}
-  m_LocalScale: {x: 0.004806005, y: 0.005503608, z: 0.006000011}
+  m_LocalPosition: {x: -0.02, y: 0.0163, z: 0.0526}
+  m_LocalScale: {x: 0.009814812, y: 0.009861396, z: 0.006000011}
   m_Children: []
   m_Father: {fileID: 4259139028157018}
   m_RootOrder: 2
@@ -628,40 +597,6 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 8f0696d960f569a468f4196081e353c4, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!23 &23228981959572616
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1919952529870732}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: e25ce5c556bb90a40ad21ead18724805, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -865,7 +800,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 6c37eada6c8635d4e962bed326d48b10, type: 2}
+  - {fileID: 2100000, guid: b18646f99fb061d4fba0389932ee43e9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -948,27 +883,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1625075889098522}
   m_Mesh: {fileID: 4300000, guid: 3c1794dc58c47374ca327c0ff93d72b0, type: 3}
---- !u!102 &102077610547965766
-TextMesh:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1919952529870732}
-  m_Text: 00,00,00,00,00
-  m_OffsetZ: 0
-  m_CharacterSize: 0.25
-  m_LineSpacing: 1
-  m_Anchor: 4
-  m_Alignment: 1
-  m_TabSize: 4
-  m_FontSize: 128
-  m_FontStyle: 0
-  m_RichText: 1
-  m_Font: {fileID: 12800000, guid: 690a5cc638e2a204fa1023975d59b3a9, type: 3}
-  m_Color:
-    serializedVersion: 2
-    rgba: 4294967295
 --- !u!102 &102374115003722162
 TextMesh:
   serializedVersion: 3
@@ -976,7 +890,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1796204006688062}
-  m_Text: 00,00,00,00,00
+  m_Text: 99
   m_OffsetZ: 0
   m_CharacterSize: 0.25
   m_LineSpacing: 1
@@ -997,7 +911,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1964328975079934}
-  m_Text: MM
+  m_Text: :)
   m_OffsetZ: 0
   m_CharacterSize: 0.25
   m_LineSpacing: 1
@@ -1107,8 +1021,8 @@ MonoBehaviour:
   m_Script: {fileID: -119419473, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ModuleType: orangebuttont
-  ModuleDisplayName: Orange Button't
+  ModuleType: bluebuttont
+  ModuleDisplayName: Blue Button't
   RequiresTimerVisibility: 1
 --- !u!114 &114462647377417402
 MonoBehaviour:
@@ -1146,19 +1060,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShaderNames:
   - KT/Mobile/DiffuseTint
---- !u!114 &114558589799601816
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1919952529870732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShaderNames:
-  - GUI/KT 3D Text
 --- !u!114 &114560920929852602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1196,7 +1097,7 @@ MonoBehaviour:
   m_Script: {fileID: -1675560866, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114639616304300316
+--- !u!114 &114634732664737626
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1204,7 +1105,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1962260446815250}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9359b26cc56a9684d8cf748221be3b5a, type: 3}
+  m_Script: {fileID: 11500000, guid: adbf8adb0d0f3ae4d8de480628cd9f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Module: {fileID: 114445151190721914}
@@ -1212,33 +1113,98 @@ MonoBehaviour:
   Audio: {fileID: 114629500169079468}
   ButtonSelectable: {fileID: 114303559387390978}
   ButtonCap: {fileID: 1064130632272964}
+  MO: {fileID: 1962260446815250}
+  DisplayText: {fileID: 102374115003722162}
   ButtonText: {fileID: 102923747411747798}
-  DisplayText1: {fileID: 102374115003722162}
-  DisplayText2: {fileID: 102077610547965766}
-  N1: 0
-  N2: 0
-  N3: 0
-  N4: 0
-  N5: 0
-  N6: 0
-  N7: 0
-  N8: 0
-  N9: 0
-  N10: 0
+  select: 0
+  A: 
+  B: 
+  C: 
+  D: 
+  E: 
+  F: 
+  G: 
+  H: 
+  I: 
+  J: 
+  K: 
+  L: 
+  M: 
+  N: 
+  O: 
+  P: 
+  Q: 
+  R: 
+  S: 
+  T: 
+  U: 
+  V: 
+  W: 
+  X: 
+  Y: 
+  Z: 
+  num: 0
+  change: 
+  answer: 
+  input: 
+  lll: 
+  auto: 0
+  lenth: 0
+  autotext: 
+--- !u!114 &114662490281306988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1962260446815250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adbf8adb0d0f3ae4d8de480628cd9f3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Module: {fileID: 114445151190721914}
+  BombInfo: {fileID: 114851826596115828}
+  Audio: {fileID: 114629500169079468}
+  ButtonSelectable: {fileID: 114303559387390978}
+  ButtonCap: {fileID: 1064130632272964}
+  MO: {fileID: 1962260446815250}
+  DisplayText: {fileID: 102374115003722162}
+  ButtonText: {fileID: 102923747411747798}
+  select: 0
   A: 0
-  At: 
-  Tablefiller: 
-  LenthofN: 0
-  NUMA: 0
-  W: 0
-  V: 0
-  T: 0
   B: 0
-  TAKE: 0
-  HOLD: 0
-  RELEASE: 0
-  snum: 0
-  debugt: 
+  C: 0
+  D: 0
+  E: 
+  F: 
+  G: 
+  H: 
+  I: 
+  J: 
+  K: 
+  L: 
+  M: 
+  N: 
+  O: 
+  P: 
+  Q: 
+  R: 
+  S: 
+  T: 
+  U: 
+  V: 
+  W: 
+  X: 0
+  Y: 
+  Z: 
+  num: 0
+  change: 
+  answer: 
+  input: 
+  lll: 
+  auto: 0
+  lenth: 0
+  autotext: 
 --- !u!114 &114688671638941096
 MonoBehaviour:
   m_ObjectHideFlags: 1
